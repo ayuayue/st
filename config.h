@@ -8,6 +8,7 @@
 static char *font = "JetBrains Mono:pixelsize=24:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
+"Microsoft YaHei:pixelsize=24:antialias=true:autohint=true", 
 "Source Code Pro:pixelsize=24:antialias=true:autohint=true", 
 "Noto Sans:pixelsize=24:antialias=true:autohint=true", 
 };
@@ -100,7 +101,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -143,8 +144,8 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 180;
-static unsigned int rows = 44;
+static unsigned int cols = 120;
+static unsigned int rows = 40;
 
 /*
  * Default colour and shape of the mouse cursor
